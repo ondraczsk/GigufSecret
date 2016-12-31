@@ -1,0 +1,29 @@
+name: Annihilation
+version: 1.0
+api: 1.12.0
+main: Annihilation\Annihilation
+author: Minetox team
+description: Annihilation minigame 
+depend: [MTCore]
+
+commands:
+    class:
+        description: "Select game kit"
+    blue:
+        description: "join to blue team"
+    red:
+        description: "join to red team"
+    yellow:
+        description: "join to yellow team"
+    green:
+        description: "join to green team"
+    lobby:
+        description: "send to main lobby"
+    stats:
+        description: "show your game stats"
+    msg:
+        description: "send private message to another player"
+    vote:
+        description: "vote command"
+    start:
+        description: "start command"
