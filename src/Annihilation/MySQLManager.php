@@ -24,7 +24,7 @@ class MySQLManager{
     }
     
     public function createMySQLConnection(){
-        $database = new \mysqli("82.208.17.11", "ondraczsk", "centrum", "ondraczsk");
+        $database = new \mysqli("82.208.17.193", "ondraczsk", "centrum", "ondraczsk");
         $this->setDatabase($database);
         if($database->connect_error)
         {
